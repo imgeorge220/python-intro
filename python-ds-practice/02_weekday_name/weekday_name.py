@@ -22,7 +22,4 @@ def weekday_name(day_of_week):
         7: "Saturday"
     }
 
-    if(day_of_week in days):
-        return days[day_of_week]
-    else: 
-        return
+    return days.get(day_of_week)

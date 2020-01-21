@@ -9,5 +9,5 @@ def multiple_letter_count(phrase):
     """
     frequencies = {}
     for ltr in phrase:
-      frequencies[ltr] = phrase.count(ltr) 
-    return frequencies 
+        frequencies[ltr] = phrase.count(ltr)
+    return frequencies

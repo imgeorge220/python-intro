@@ -23,6 +23,6 @@ def is_palindrome(phrase):
     """
 
     phrase_forward_lower = phrase.replace(" ", '').lower()
-    phrase_reverse_lower = phrase.replace(" ", '').lower()[::-1]
+    phrase_reverse_lower = phrase_forward_lower[::-1]
 
     return phrase_forward_lower == phrase_reverse_lower

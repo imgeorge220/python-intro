@@ -13,6 +13,6 @@ def single_letter_count(word, letter):
 
     count = 0
     for char in word:
-        if(char.upper() == letter.upper()):
+        if char.upper() == letter.upper():
             count += 1
     return count
