@@ -17,7 +17,6 @@ def extract_full_names(people):
     result = []
     for name in people:
         first_name = name["first"]
-        last_name = name["last"]
+        last_name = name["last"]#comprehension
         result.append(f"{first_name} {last_name}")
     return result
-
